@@ -8,6 +8,10 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LayoutComponent } from './layout/layout.component';
+import { ReportsComponent } from './reports/reports.component';
+import { StatisticsComponent } from './statistics/statistics.component';
+import { SettingsComponent } from './settings/settings.component';
+import { AddAdminComponent } from './add-admin/add-admin.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { LayoutComponent } from './layout/layout.component';
     FooterComponent,
     LoginComponent,
     DashboardComponent,
-    LayoutComponent
+    LayoutComponent,
+    ReportsComponent,
+    StatisticsComponent,
+    SettingsComponent,
+    AddAdminComponent
   ],
   imports: [
     BrowserModule,

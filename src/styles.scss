@@ -234,11 +234,12 @@ b, strong {
 }
 
 .text-muted {
-  color: #9ca8b3 !important;
+  color: #bca2c9 !important;
 }
 
 .text-primary {
-  color: #30419b !important;
+  color: #673d7e !important;
+  font-weight: bold;
 }
 
 .text-warning {
@@ -487,6 +488,10 @@ dt {
   line-height: 34px;
 }
 
+.font-11 {
+    font-size: 11px;
+    font-weight: bold;
+}
 .font-12 {
   font-size: 12px;
 }
@@ -557,7 +562,7 @@ dt {
 
 .header-title {
   font-size: 15px;
-  text-transform: uppercase;
+ 
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -2376,7 +2381,7 @@ label {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 6px solid #30419b;
+  border: 6px solid #673d7e;
   background-color: #ffffff;
 }
 
@@ -3649,4 +3654,50 @@ table.focus-on tbody tr.focused td {
 
 .pricing-box .pricing-features {
   padding-left: 20px;
+}
+.paddingbtn{
+        padding: 6px 40px;
+    font-weight: bold;
+    margin-right: 30px!important;
+}
+.paddingbtn1{
+        padding: 3px 25px;
+        font-size: 12px;
+}
+.paddingbtn2{
+        padding: 3px 25px;
+        background-color: #ff002d !important;
+        border: pink;
+        font-size: 12px;
+}
+.btn-default{
+  background-color: #f0f4f7;
+  color: #c3c3c3;
+}
+.date-no{
+  font-size: 38px;
+  font-weight: bold;
+  color:#895ca2;
+  margin: 0px 0;
+}
+.date-mo{
+  font-size: 14px;
+    margin: 0px 0;
+    font-weight: bold;
+}
+.date-week{
+  margin: 0px 0;
+  font-weight: bold;
+}
+.heading1{
+     color: #895ca2;
+    font-size: 23px;
+    text-align: center;
+}
+.table thead th{
+  color: #582e6e;
+}
+
+.bg-default1{
+  background-color: #eaeaea;;
 }
